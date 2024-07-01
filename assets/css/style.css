@@ -27,7 +27,7 @@ nav{
 .menuBar{
     width: 24px;
     height: 24px;
-    font-size: 100%;
+    font-size: 24px;
     color: white;
     text-align: center;
 }
@@ -315,6 +315,10 @@ footer{
 
 
 @media only screen and (max-width: 768px){
+    nav{
+        justify-content: space-between;
+    }
+    
     .navRight a{
         display: none;
     }
